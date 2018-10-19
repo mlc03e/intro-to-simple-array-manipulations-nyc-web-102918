@@ -11,7 +11,7 @@ neighborhoods_in_northwest_brooklyn.unshift(new_neighborhood)
 end
 
 def using_pop(array)
-  great_hits_of_the_nineties.pop
+  array.pop
 end
 
 def pop_with_args(array)
