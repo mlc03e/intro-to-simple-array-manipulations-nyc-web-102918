@@ -48,8 +48,7 @@ def using_concat(arr_1, arr_2)
    end 
    
    def using_delete(array, string)
-     instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-     instructors.delete("Steven")
+     array.delete(string)
    end
      
      def using_delete_at(array, integer)
